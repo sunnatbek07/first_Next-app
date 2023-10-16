@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: black
+}
+
+.container {
+  max-width: 1080px;
+}
+
+.video {
+  background-image: url("../assets/images/Video_Cover.png");
+  height: 570px;
+  width: 1050px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+}
+
+.info {
+  padding: 80px 0;
+  background-image: url("../assets/images/Gradient.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.feedbacks{
+  background-image: url("../assets/images/Gradient.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
